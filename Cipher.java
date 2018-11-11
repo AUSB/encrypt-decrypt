@@ -1,4 +1,4 @@
-package com.example.yajunbai.kryptonote;
+package com.example.xman.kryptonote;
 
 public class Cipher {
     private String key;
@@ -50,13 +50,11 @@ public class Cipher {
             int shift = Integer.parseInt(pad.substring(i, i + 1));
             int newPosition = (position - shift) % ALPHABET.length();
 
-            // newPosition = position - shift;
+     
             if (newPosition < 0) {
                 newPosition = newPosition + ALPHABET.length();
             }
-            /* else if(newPosition > ALPHABET.length()){
-            newPosition = newPosition - ALPHABET.length();
-            }*/
+            
 
             result = result + ALPHABET.substring(newPosition, newPosition + 1);
 
