@@ -1,4 +1,4 @@
-package com.example.yajunbai.kryptonote;
+package com.example.xman.kryptonote;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
