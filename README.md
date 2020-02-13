@@ -1,4 +1,9 @@
 # The KryptoNote App
+
+
+Android Application Design Project using Android Studio
+
+
 Here are a few typical use cases:
 
 •	Launch the app; enter a note; enter a key; tap ENCRYPT; enter a filename; tap SAVE.
